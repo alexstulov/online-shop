@@ -1,0 +1,28 @@
+// Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+* {
+    font-family: Roboto;
+}
+a {
+    text-decoration: none;
+}
+ul > li {
+    list-style-type: "▹";
+    padding-left: 7px;
+}
+ul > li.productItem {
+    list-style-type: circle;
+}
+.logoContainer {
+    width: 100px;
+    height: 40px;
+    background-color: grey; color: white;
+}
