@@ -14,10 +14,11 @@
         @endif
     </head>
     <body class="d-flex flex-column h-100">
-        <div class="container flex-shrink-0">
-            <header class="row py-2">
-                <a href="{{ url()->query('/') }}">
-                    <img src="{{ url('/img/small_logo.png') }}" />
+        <div class="container">
+            <header class="py-2">
+                <a href="{{ url()->query('/') }}" class="d-flex flex-row flex-shrink-0 align-items-center gap-2">
+                    <img src="{{ url('/img/small_logo.png') }}" width="50px" height="50px"/>
+                    <h1 class="m-0 lh-1">Онлайн Магазин</h1>
                 </a>
             </header>
             {{ $slot }}
